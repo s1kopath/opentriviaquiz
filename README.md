@@ -13,7 +13,7 @@ A modern, interactive quiz application built with Next.js and TypeScript, powere
 
 ## Demo
 
-You can check out the live demo at [https://github.com/s1kopath/opentriviaquiz](https://github.com/s1kopath/opentriviaquiz)
+You can check out the live demo at [https://opentriviaquiz.vercel.app/](https://opentriviaquiz.vercel.app/)
 
 ## Technology Stack
 
