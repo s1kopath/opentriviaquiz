@@ -28,11 +28,13 @@ export default function Quiz({ category }: { category: string }) {
   useEffect(() => {
     let isSubscribed = true;
     const controller = new AbortController();
+    let isLoading = true;
 
     const fetchQuestions = async () => {
       try {
-        // Add delay to prevent rate limiting
         await new Promise((resolve) => setTimeout(resolve, 1000));
+
+        if (!isLoading) return;
 
         const response = await fetch(
           `https://opentdb.com/api.php?amount=10&category=${category}`,
@@ -61,7 +63,10 @@ export default function Quiz({ category }: { category: string }) {
 
     return () => {
       isSubscribed = false;
-      controller.abort();
+      isLoading = false;
+      if (!controller.signal.aborted) {
+        controller.abort();
+      }
     };
   }, [category]);
 
