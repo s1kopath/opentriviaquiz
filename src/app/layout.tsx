@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Trivia Quiz",
-  description: "Test your knowledge with our interactive trivia quiz powered by AI",
+  description: "Test your knowledge with our interactive trivia quiz",
 };
 export default function RootLayout({
   children,
