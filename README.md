@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# OpenTriviaQuiz
 
-## Getting Started
+A modern, interactive quiz application built with Next.js and TypeScript, powered by the Open Trivia Database API. This application offers a seamless quiz experience with real-time feedback and a clean, responsive interface.
 
-First, run the development server:
+## Features
+
+- Dynamic quiz questions from various categories
+- Real-time feedback on answers
+- Score tracking and final results
+- Responsive design with dark mode support
+- Clean and modern UI with Tailwind CSS
+- TypeScript for enhanced type safety
+
+## Demo
+
+You can check out the live demo at [https://github.com/s1kopath/opentriviaquiz](https://github.com/s1kopath/opentriviaquiz)
+
+## Technology Stack
+
+- Next.js 13+ (App Router)
+- TypeScript
+- Tailwind CSS
+- Open Trivia Database API
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- Node.js (v16.8 or higher)
+- npm or yarn
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/s1kopath/opentriviaquiz.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd opentriviaquiz
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+4. Run the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open your browser and visit:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Usage
 
-## Learn More
+1. Select a quiz category
+2. Answer the questions by clicking on your chosen option
+3. Get immediate feedback on your answers
+4. View your final score at the end of the quiz
+5. Restart the quiz to try again
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
+This project is open source and available under the [MIT License](LICENSE).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Acknowledgments
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Open Trivia Database](https://opentdb.com/) for providing the quiz questions API
+- [Next.js](https://nextjs.org/) for the awesome React framework
+- [Tailwind CSS](https://tailwindcss.com/) for the utility-first CSS framework
